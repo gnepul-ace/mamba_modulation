@@ -1,0 +1,20 @@
+{
+    "llama2-7b-chat-4k": 3500,
+    "longchat-v1.5-7b-32k": 31500,
+    "xgen-7b-8k": 7500,
+    "internlm-7b-8k": 7500,
+    "chatglm2-6b": 31500,
+    "chatglm2-6b-32k": 31500,
+    "chatglm3-6b-32k": 31500,
+    "vicuna-v1.5-7b-16k": 15500,
+    "state-spaces/mamba-1.4b": 2048,
+    "state-spaces/mamba-370m": 2048,
+    "state-spaces/mamba-130m": 2048,
+    "state-spaces/mamba-2.8b": 2048,
+    "state-spaces/mamba-790m": 2048,
+    "state-spaces/mamba2-1.3b": 2048,
+    "state-spaces/mamba2-370m": 2048,
+    "state-spaces/mamba2-130m": 2048,
+    "state-spaces/mamba2-2.7b": 2048,
+    "state-spaces/mamba2-780m": 2048
+}
