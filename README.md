@@ -2,6 +2,10 @@
 
 This repository contains our code for the paper "Mamba Modulation: On the Length Generalization of Mamba". The majority of the code is derived from [MambaExtend](https://github.com/ArminAzizi98/LongContextMamba).
 
+## Structure
+
+Each folder in this repo contains a unique modification of [MambaExtend](https://github.com/ArminAzizi98/LongContextMamba), which can be run separately.
+
 ## Setting up environments
 
 In general, it is recommended to install the `requirements.txt` file by running
