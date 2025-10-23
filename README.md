@@ -2,8 +2,7 @@
 
 ## Introduction
 
-This is the official repository for the supporting code to our NeurIPS 2025 paper __Mamba Modulation: On the Length Generalization of Mamba Models
-__, presented at ICML 2025.
+This is the official repository for the supporting code to our NeurIPS 2025 paper __Mamba Modulation: On the Length Generalization of Mamba Models__.
 
 This repository is built off of [`MambaExtend`](https://github.com/ArminAzizi98/LongContextMamba). To use these codes properly, simply clone `MambaExtend` and then copy the files from the model you wish to run (`Mamba` or `Mamba2`)
 
