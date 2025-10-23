@@ -1,31 +1,24 @@
 # Mamba Modulation
 
-This repository contains our code for the paper "Mamba Modulation: On the Length Generalization of Mamba". The majority of the code is derived from [MambaExtend](https://github.com/ArminAzizi98/LongContextMamba).
+## Introduction
 
-## Structure
+This is the official repository for the supporting code to our NeurIPS 2025 paper __Mamba Modulation: On the Length Generalization of Mamba Models
+__, presented at ICML 2025.
 
-Each folder in this repo contains a unique modification of [MambaExtend](https://github.com/ArminAzizi98/LongContextMamba), which can be run separately.
+This repository is built off of [`MambaExtend`](https://github.com/ArminAzizi98/LongContextMamba). To use these codes properly, simply clone `MambaExtend` and then copy the files from the model you wish to run (`Mamba` or `Mamba2`)
 
-## Setting up environments
+We separate each of these their own separate folder due to changes in both the `modeling` files as well as the training/calibration/evaluation scripts.
 
-In general, it is recommended to install the `requirements.txt` file by running
-```bash
-pip install -r requirements.txt
-```
-as this ensures that the versions of HuggingFace matches what is used for the models.
-
-Occasionally, there may be an issue of `torch` not being installed, as it is a dependecy for `flash-attn`. In this case, we recommend installing
-```bash
-pip install torch torchvision torchaudio
-```
-and then running the first command again. If issues persist with symbols not being recognized, you may need to install `flash-attn` from a wheel directly.
-
-**Note**: In our environment, we ran with `torch==2.6.0` and `flash-attn==2.6.3`.
-
-## Running Code
-
-For running code, please simply follow instructions from [MambaExtend](https://github.com/ArminAzizi98/LongContextMamba).
+We recommend running models on a machine with at least 24 GB of GPU memory with Ampere microarchitecture (our experiments have been tested on a to a 24GB GeForce RTX 4080 card).
 
 ## Citation
 
-Coming soon.
+```
+@inproceedings{lu2025mamba,
+      title={Mamba Modulation: On the Length Generalization of Mamba Models},
+      author={Peng Lu and Jerry Huang and Qiuhao Zeng and Xinyu Wang and Boxing Chen and Philippe Langlais and Yufei Cui},
+      booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+      year={2025},
+      url={https://openreview.net/forum?id=QEU047bE8p}
+}
+```
