@@ -8,7 +8,7 @@ This repository is built off of [`MambaExtend`](https://github.com/ArminAzizi98/
 
 We separate each of these their own separate folder due to changes in both the `modeling` files as well as the training/calibration/evaluation scripts.
 
-We recommend running models on a machine with at least 24 GB of GPU memory with Ampere microarchitecture (our experiments have been tested on a to a 24GB GeForce RTX 4080 card).
+We recommend running models on a machine with at least 12 GB of GPU memory with Ampere microarchitecture (our experiments have been tested on a 12GB GeForce RTX 4080 card).
 
 ## Citation
 
